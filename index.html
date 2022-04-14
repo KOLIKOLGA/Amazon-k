@@ -13,10 +13,18 @@
       <div class="header__top">
          <div class="logo">Амазонка</div>
          <ul class="nav">
-            <li class="nav__item">Каталог товаров</li>
-            <li class="nav__item">Категории</li>
-            <li class="nav__item">Отзывы</li>
-            <li class="nav__item">Контакты</li>
+            <li class="nav__item">
+               <a class="nav__link" href="">Каталог товаров</a>
+            </li>
+            <li class="nav__item">
+               <a class="nav__link" href="#">Категории</a>
+            </li>
+            <li class="nav__item">
+               <a class="nav__link" href="#">Отзывы</a>
+            </li>
+            <li class="nav__item">
+               <a class="nav__link" href="#">Контакты</a>
+            </li>
          </ul>
          <a href="tel:+78002503020" class="phone">8 800 250 30 20</a>
       </div>
@@ -36,5 +44,133 @@
       </div>
      </div>
    </header>
+     <section class="section goods">
+        <div class="container">
+           <div class="section__title">Каталог товаров</div>
+           <div class="cards">
+             <div class="card goods__card">
+               <img src="http://ipic.su/img/img7/fs/image2.1649870157.png" class="card__image">
+               <div class="card__text">
+                  <h3 class="card__title">Свой собственный слайдер на чистом JS</h3>
+                  <strong class="card__price">590.</strong>
+               </div>
+               <button class="button card__button">Купить костыль</button>
+             </div>
+           
+           <div class="card goods__card">
+            <img src="http://ipic.su/img/img7/fs/image2-1.1649870207.png" class="card__image">
+              <div class="card__text">
+                 <h3 class="card__title">Всплывающее окно без использования JS</h3>
+                  <strong class="card__price">390.</strong>
+              </div>
+              <button class="button card__button">Купить костыль</button>
+           </div>
+           <div class="card goods__card">
+            <img src="http://ipic.su/img/img7/fs/image2-2.1649870249.png" class="card__image">
+              <div class="card__text">
+                <h3 class="card__title">Табы, меню и аккордеон на чистом CSS с тостера</h3>
+                <strong class="card__price">690.</strong>
+              </div>
+              <button class="button card__button">Купить костыль</button>
+           </div>
+           <div class="card goods__card">
+            <img src="http://ipic.su/img/img7/fs/image2.1649870157.png" class="card__image">
+              <div class="card__text">
+                 <h3 class="card__title">Галерея во всплывающем окне
+                     на трех библиотеках</h3>
+                 <strong class="card__price">590.</strong>
+              </div>
+              <button class="button card__button">Купить костыль</button>
+           </div>
+           <div class="card goods__card">
+            <img src="http://ipic.su/img/img7/fs/image2-1.1649870207.png" class="card__image">
+              <div class="card__text">
+                 <h3 class="card__title">Скрипт отправки данных
+                  на email со stackoverflow</h3>
+                  <strong class="card__price">590.</strong>
+              </div>
+              <button class="button card__button">Купить костыль</button>
+           </div>
+           <div class="card goods__card">
+            <img src="http://ipic.su/img/img7/fs/image2-2.1649870249.png" class="card__image">
+              <div class="card__text">
+                 <h3 class="card__title">Ванильный тултип перекрывающий контент</h3>
+                 <strong class="card__price">590.</strong>
+              </div>
+              <button class="button card__button">Купить костыль</button>
+           </div>
+           </div>
+        </div>
+     </section>
+  <section class="section reviews">
+     <div class="container">
+        <h2 class="section__title">Отзывы клиентов</h2>
+        <div class="review-cards">
+           <div class="review-card">
+              <img src="http://ipic.su/img/img7/fs/image3.1649910789.png" alt="girl" class="review-card__image">
+            <h2 class="review-card__title">Юля, 24 года</h2>
+            <p class="review-card__text">Очень удобно пользоваться готовыми костылями
+                и не искать их по сети, спасибо!</p>
+         </div>
+           <div class="review-card">
+              <img src="http://ipic.su/img/img7/fs/image3.1649910868.png" alt="" class="review-card__image">
+            <h2 class="review-card__title">Егор, 16 лет</h2>
+            <p class="review-card__text">Спасибо за костыли, не пришлось придумывать велосипед,
+                сэкономил время!</p>
+         </div>
+           <div class="review-card">
+              <img src="http://ipic.su/img/img7/fs/image3.1649910916.png" alt="" class="review-card__image">
+            <h2 class="review-card__title">Рами, 20 лет</h2>
+            <p class="review-card__text">Скачал костыль, установил в проект, вылез 
+               конфликт с другими костылями!</p>
+         </div>
+           <div class="review-card">
+              <img src="http://ipic.su/img/img7/fs/image3.1649910955.png" alt="" class="review-card__image">
+            <h2 class="review-card__title">Олег, 32 года</h2>
+            <p class="review-card__text">Всё интересно, но не понятно, хотел купить,
+                но ничего не понял, спасибо</p>
+         </div>
+        </div>
+     </div>
+  </section>
+  <footer class="footer section">
+     <div class="container">
+        <h2 class="section__title">Контакты</h2>
+        <div class="contacts">
+           <div class="form">
+              <form action="#">
+                 <input type="text" class="input form__input" placeholder="Ваше имя">
+                 <input type="email" class="input form__input" placeholder="Ваш email">
+                 <textarea name="" rows="10" class="input form__input" placeholder="Коментарий"></textarea>
+                 <button type="submit" class="button form__button">Отправить заявку</button>
+
+              </form>
+              <div class="social">
+               <a href="#" class="social__link">
+                  <img src="" alt="" class="social__image">
+               </a>
+               <a href="#" class="social__link">
+                  <img src="" alt="" class="social__image">
+               </a>
+               <a href="#" class="social__link">
+                  <img src="" alt="" class="social__image">
+               </a>
+               <a href="#" class="social__link">
+                  <img src="" alt="" class="social__image">
+               </a>
+               <a href="#" class="social__link">
+                  <img src="" alt="" class="social__image">
+               </a>
+               <a href="#" class="social__link">
+                  <img src="" alt="" class="social__image">
+               </a>
+            </div>
+           </div>
+           <div class="map">
+
+           </div>
+        </div>
+     </div>
+  </footer>
 </body>
 </html>
