@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
- 
+  flex-wrap: wrap; 
 }
 .review-card {
    min-height: 250px;
@@ -215,6 +215,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 .social__link {
    text-decoration: none;
+}
+@media screen and (max-width: 1230px) {
+   .container {
+      max-width: 960px;
+   }
+   .header-content__title {
+     font-size: 40px;
+   }
+   .card {
+      flex-basis: 40%;
+      
+   }
+   .review-card {
+      flex-basis: 48%;
+   }
+   .review__card {
+      margin-bottom: 30px;
+   }
+   .button {
+      font-size: 16px;
+   }
+}
+@media screen and (max-width: 1050px) {
+   .container {
+      max-width: 760px;
+   }
+   .header-content {
+      flex-direction: column;
+   }
+   .header-content__description {
+      max-width: 500px;
+   }
+   .contacts{
+      flex-direction: column;
+   }
+   .form {
+      display: block;
+   }
+   .form__list {
+      justify-content: space-between;
+   }
 }
 @media screen and (max-width: 321px) {
 
